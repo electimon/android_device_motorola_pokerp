@@ -27,4 +27,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl
 
 # Call proprietary blob setup
-$(call inherit-product-if-exists, vendor/xiaomi/mt6765-common/mt6765-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/pokerp/pokerp-vendor.mk)
